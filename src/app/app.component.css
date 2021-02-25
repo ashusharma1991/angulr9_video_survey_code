@@ -1,0 +1,55 @@
+.pp
+{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    background-color: aqua;
+    color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  height: 700px;
+}
+
+#myBtn {
+ width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgb(10, 252, 91);
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    bottom: 88px;
+    right: 39px;
+  
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
